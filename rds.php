@@ -5,7 +5,7 @@
   <form action="rds_receiver.php" method="post">
        <p>
          Number :
-         <input type="text" name="number">
+         <input type="text" name="number"  placeholder="number">
        </p>
        <p>
          Species :
@@ -34,11 +34,8 @@ $sql="SELECT * FROM pet";
 $result=mysqli_query($read,$sql);
 while($row=mysqli_fetch_assoc($result)){
  $name=mysqli_real_escape_string($read,$row['name']);
- print("<li>{$name}</li>");
  $species=mysqli_real_escape_string($read,$row['species']);
- print("<li>{$species}</li>");
+ $weight=mysqli_real_escape_string($read,$row['weight']);
+ $description=mysqli_real_escape_string($read,$row['description']);
+ print("<li>name: $name, species: $species, weight: $weight, description: $description </li>");
 }
-?>
-    </ul>
-   </body>
-</html>

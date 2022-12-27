@@ -8,4 +8,4 @@ $description = mysqli_real_escape_string($write, $_POST['description']);
 $sql = "INSERT INTO pet(number, species, name, weight, description, created) VALUES('{$number}','{$species}','{$name}','{$weight}','{$description}',NOW())";
 mysqli_query($write,$sql);
 header("Location: rds.php");
-?>                                                                                                                                  
+?>                                                                                                                    
