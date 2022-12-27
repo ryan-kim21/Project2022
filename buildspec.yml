@@ -6,5 +6,5 @@ build:
 
 artifacts:
   files:
-    - appspec.yml
-    - /*
+  - source:  /
+    destination: /var/www/html/
