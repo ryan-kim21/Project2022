@@ -7,3 +7,4 @@ build:
 artifacts:
   files:
     - appspec.yml
+    - /*
