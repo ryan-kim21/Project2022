@@ -1,10 +1,5 @@
-version: 0.2
-
-build:
-    commands:
-
-
-artifacts:
-  files:
+version: 0.0
+os: linux
+files:
   - source:  /
     destination: /var/www/html/
