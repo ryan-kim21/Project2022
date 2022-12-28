@@ -3,6 +3,7 @@
  <head><meta charset="utf-8"></head>
   <body>
   <form action="rds_receiver.php" method="post">
+    <p> Please input your data </p>
        <p>
          Number :
          <input type="text" name="number"  placeholder="number">
