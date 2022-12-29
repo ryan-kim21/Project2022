@@ -26,6 +26,7 @@
          </textarea>
        </p>
        <p><input type="submit"></p>
+       <button type="button" onclick="location.href='https://ap-northeast-2.quicksight.aws.amazon.com/sn/dashboards/754e45f0-475c-4116-8bb3-ec75614cc5cf';"></button>
    </form>
    <ul>
 
