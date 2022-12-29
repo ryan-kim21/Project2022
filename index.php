@@ -4,7 +4,7 @@
   <body>
 
   <h1>Login page</h1>
-
+  <button type="button" onclick="location.href='https://ap-northeast-2.quicksight.aws.amazon.com/sn/dashboards/754e45f0-475c-4116-8bb3-ec75614cc5cf';"> 접속현황 </button>
 <?php
 
    $hostname=$_SERVER["HTTP_HOST"]; //도메인명(호스트)명을 구합니다.

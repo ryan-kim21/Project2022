@@ -26,7 +26,7 @@
          </textarea>
        </p>
        <p><input type="submit"></p>
-       <button type="button" onclick="location.href='https://ap-northeast-2.quicksight.aws.amazon.com/sn/dashboards/754e45f0-475c-4116-8bb3-ec75614cc5cf';"></button>
+      
    </form>
    <ul>
 
@@ -41,3 +41,4 @@ while($row=mysqli_fetch_assoc($result)){
  $description=mysqli_real_escape_string($read,$row['description']);
  print("<li>name: $name, species: $species, weight: $weight, description: $description </li>");
 }
+?>
