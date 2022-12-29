@@ -29,7 +29,7 @@
       
    </form>
    <ul>
-
+   <iframe src = "https://ap-northeast-2.quicksight.aws.amazon.com/sn/dashboards/936c0d40-fce6-47a5-8cf6-63b7b2432a8f" width = "300" height = "200" ></iframe>
 <?php
 include('db.php');
 $sql="SELECT * FROM pet";
