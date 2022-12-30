@@ -29,8 +29,6 @@
       
    </form>
    <ul>
-   <p> Status </p>
-   <iframe width="850" height="550" src="https://ap-northeast-2.quicksight.aws.amazon.com/sn/embed/share/accounts/648975347655/dashboards/936c0d40-fce6-47a5-8cf6-63b7b2432a8f/sheets/936c0d40-fce6-47a5-8cf6-63b7b2432a8f_92feb398-1ae0-4654-8eb1-ec8a7bca96c8/visuals/936c0d40-fce6-47a5-8cf6-63b7b2432a8f_200b1fc4-ab4e-4173-98da-2d659c3b4ddd?directory_alias=project2022-test"></iframe>
 <?php
 include('db.php');
 $sql="SELECT * FROM pet";
