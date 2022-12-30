@@ -25,7 +25,7 @@
          <textarea name="description">
          </textarea>
        </p>
-       <p><input type="submit"> submit</p>
+       <p><input type="submit"></p>
       
    </form>
    <ul>
